@@ -32,7 +32,7 @@ export default function MapView({ clientes, center, onDelete }) {
         outro.longitude
       );
 
-      return distancia < 4;
+      return distancia < 2;
     });
   };
 
